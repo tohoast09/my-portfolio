@@ -118,6 +118,11 @@ body {
   width: 27em;
   margin: 2em 0em;
 }
+.about video{
+  width: 27em;
+  margin: 2em 0em;
+  transition: all 0.3s ease-in-out;
+}
 img {
   width: 100%;
   transition: all 0.3s ease-in-out;
@@ -126,6 +131,10 @@ img {
   
 }
 img:hover{
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+video:hover{
   transform: scale(1.05);
   opacity: 0.9;
 }
@@ -138,6 +147,11 @@ img:hover{
   font-size: 1.4em;
   color: var(--color);
   opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+}
+.about p:hover{
+  transform: scale(1.05);
+  opacity: 0.7;
 }
 
 /* ---------- skills section ---------- */
@@ -335,7 +349,7 @@ p{
 #About p{
   text-align: justify;
   text-indent: 30px;
-  width: 80%;
+  width: 486px;
 }
 .projects .container .main_box .box .links a {
   color: var(--light-color);
